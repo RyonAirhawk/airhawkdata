@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    height: 100vh;
+    margin: 20px 20px 0 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    height: 17vh;
+    align-items: start;
+}
+
+.btn {
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+.btn a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    height: 120px;
+    float: left;
+}
+
+.media-link {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.media-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h3 a {
+    text-decoration: none;
+}

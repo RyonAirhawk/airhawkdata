@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    margin: 20px 20px 0 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top-container {
+}
+
+.logo {
+    height: 120px;
+    float: left;
+}
+
+.top {
+    text-align: left;
+    background-color: aliceblue;
+}
+
+.banner {
+    height: 100px;
+    width: 500px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    height: 17vh;
+    align-items: start;
+}
+
+.btn {
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+.btn a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
