@@ -22,6 +22,12 @@ body {
     width: 500px;
 }
 
+.banner-logo {
+    height: 260px;
+    float: right;
+    margin-right: 5px;
+}
+
 h1 {
     font-size: 50px;
     font-weight: bold;
@@ -47,4 +53,30 @@ h1 {
     color: aliceblue;
     text-decoration: none;
     font-size: 20px;
+}
+
+.middle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.design-image {
+    height: 300px;
+}
+
+.perfection {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+
+.perfection-image {
+    height: 300px;
+}
+
+.build-image {
+    height: 300px;
 }
