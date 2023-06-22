@@ -1,46 +1,74 @@
 body {
+    background-color: aliceblue;
     text-align: center;
-    height: 100vh;
-    margin: 20px 20px 0 20px;
+    margin: 10px 10px 0 10px;
+    height: 110vh;
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    height: 17vh;
-    align-items: start;
+.menu-container {
+    background-color: antiquewhite;
+    height: 13vh;
 }
 
-.btn {
-    background-color: darkgreen;
-    border-radius: 5px;
-    padding: 5px;
-    color: #fff;
-}
-
-.btn a {
+.menu-container a {
+    font-size: 2rem;
     color: aliceblue;
     text-decoration: none;
-    font-size: 20px;
 }
 
-.logo {
-    height: 120px;
+.menu-container img {
+    height: 5.3rem;
     float: left;
 }
 
-.media-link {
+.menu-button button {
+    background-color: brown;
+    border-radius: 0.3rem;
+    border-style: none;
+}
+
+.menu-button {
+    margin-right: 85px;
+}
+
+.contact-container {
+    background-color: azure;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contact-container h3 a {
+    color: black;
+}
+
+.contact-container button {
+    border-radius: 0.2rem;
+    border-style: none;
     background-color: blue;
-    border-radius: 5px;
 }
 
-.media-link a {
-    text-decoration: none;
-    color: #fff;
+footer {
+    float: right;
 }
 
-h3 a {
-    text-decoration: none;
+@media (max-width: 600px) {
+    body {
+        background-color: yellowgreen;
+    }
+
+    .contact-container {
+        background-color: chartreuse;
+    }
+
+    .menu-button a {
+        font-size: 1.5rem;
+    }
 }
