@@ -1,67 +1,96 @@
 body {
-    background-color: azure;
+    background-color: aliceblue;
+    margin: 10px 10px 0 10px;
     text-align: center;
-    margin: 20px 20px 0 20px;
+    height: 110vh;
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    height: 17vh;
-    align-items: start;
+.menu-container {
+    background-color: antiquewhite;
+    height: 13vh;
 }
 
-.logo {
-    height: 120px;
+.menu-container img {
+    height: 5.3rem;
     float: left;
 }
 
-.btn {
-    border-radius: 5px;
-    padding: 5px;
-    color: #fff;
-    background-color: darkgreen;
-}
-
-.btn a {
+.menu-container a {
+    font-size: 2rem;
     color: aliceblue;
     text-decoration: none;
-    font-size: 20px;
+}
+
+.menu-button {
+    margin-right: 85px;
+}
+
+.menu-button button {
+    background-color: brown;
+    border-radius: 0.3rem;
+    border-style: none;
 }
 
 .pricing-container {
+    background-color: bisque;
+    height: 60vh;
     display: flex;
-    gap: 2rem;
     justify-content: center;
-    height: 100vh;
     align-items: center;
-    font-family: 'Sono', sans-serif;
+    gap: 2rem;
 }
 
 .pricing-plan {
-    background-color: aqua;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 1rem;
+    height: 15rem;
+    width: 18rem;    
 }
 
 .plan-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .plan-price {
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.plan-description {
+    margin-top: 1rem;
+}
+
+.plan-button a {
+    font-size: 2rem;
+    text-decoration: none;
 }
 
 .plan-button {
-    background-color: #ff6600;
-    padding: 5px 20px;
-    border-radius: 5px;
-    color: #fff;
-    border: none;
+    border-radius: 0.5rem;
+    border-style: none;
+    margin-top: 1rem;
+    width: 5rem;
+}
+
+footer {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: 155vh;
+        background-color: darkcyan;
+    }
+
+    .pricing-container {
+        display: grid;
+        height: 120vh;
+        gap: 1rem;
+    }
+
+    .menu-container a {
+        font-size: 1.5rem;
+    }
 }
