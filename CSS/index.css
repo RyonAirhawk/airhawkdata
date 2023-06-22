@@ -1,82 +1,135 @@
 body {
+    background-color: aliceblue;
     text-align: center;
-    margin: 20px 20px 0 20px;
-    font-family: 'Roboto Slab', serif;
+    margin: 10px 10px 0 10px;
+    height: 220vh;
 }
 
-.top-container {
+.menu-container {
+    background-color: antiquewhite;
+    height: 13vh;
 }
 
-.logo {
-    height: 120px;
+.menu-container img {
+    height: 5.3rem;
     float: left;
 }
 
-.top {
-    text-align: left;
-    background-color: aliceblue;
+.menu-container a {
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
 }
 
-.banner {
-    height: 100px;
-    width: 500px;
+.menu-button {
+    margin-right: 85px;
+}
+
+.menu-button button {
+    background-color: brown;
+    border-radius: 0.3rem;
+    border-style: none;
+}
+
+.banner-container {
+    background-color: aquamarine;
+    height: 37vh;
+    text-align: left;
+    margin-top: 20px;
 }
 
 .banner-logo {
-    height: 260px;
+    height: 15rem;
     float: right;
-    margin-right: 5px;
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: bold;
+.banner {
+    height: 6rem;
+    width: 35rem;
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    height: 17vh;
-    align-items: start;
-}
-
-.btn {
-    background-color: darkgreen;
-    border-radius: 5px;
-    padding: 5px;
-    color: #fff;
-}
-
-.btn a {
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.middle-container {
+.details-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
+    background-color: beige;
+    margin-top: 20px;
 }
 
-.design-image {
-    height: 300px;
+.details-item img {
+    height: 20rem;
 }
 
-.perfection {
-    grid-column: span 2;
+.beauty-container img {
+    height: 18rem;
+}
+
+.beauty-container {
     display: flex;
+    grid-column: span 2;
     justify-content: center;
+    margin-top: 10px;
 }
 
-
-.perfection-image {
-    height: 300px;
+.contact-container {
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    height: 15vh;
 }
 
-.build-image {
-    height: 300px;
+.contact-container a {
+    font-size: 3rem;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.contact-container button {
+    background-color: brown;
+    border-style: none;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+}
+
+footer {
+    float: right;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: 280vh;
+        background-color: chartreuse;
+    }
+
+    .banner-logo {
+        height: 5rem;
+    }
+    
+    .banner {
+        height: 5rem;
+        width: 24rem;
+    }
+
+    .menu-container a {
+        font-size: 1.6rem;
+    }
+    
+    .details-container {
+        height: 200vh;
+        background-color: blueviolet;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .beauty-container {
+        grid-column: span 1;
+    }
+
+    .details-item img {
+        height: 19rem;
+    }
+
+    .beauty-container img {
+        height: 16rem;
+    }
+
 }
